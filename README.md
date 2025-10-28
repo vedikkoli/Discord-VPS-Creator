@@ -42,7 +42,7 @@
 - Python 3.10 is insatlled on your Linux machine. (You can run `sudo apt install python3 python3-pip` to download Python)
 
 **How to use**:
-- `git clone https://github.com/katy-the-kat/discord-vps-creator.git`
+- `git clone https://github.com/vedikkoli/Discord-VPS-Creator`
 - Compile the images using `docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && docker build -t debian-with-tmate -f Dockerfile2 .` and wait for it to be done 
 - Edit .py file and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
 - Run the file by using `python3 main.py` or `python main.py` or `py main.py`
